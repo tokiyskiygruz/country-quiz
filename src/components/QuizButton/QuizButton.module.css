@@ -1,0 +1,18 @@
+.quiz-button {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-button-main);
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  min-width: 200px;
+  transition: background-color 0.3s ease;
+}
+
+.quiz-button:hover {
+  background: var(--color-gradient-quiz);
+}
